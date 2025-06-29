@@ -86,8 +86,8 @@ while True:
     total_zones = len(polygons)
     free_zones = total_zones - occupied_zones
     print("Free zones:", free_zones)
-    cvzone.putTextRect(frame,f'FREEZONE:{free_zones}',(30,40),1,1)
-    cvzone.putTextRect(frame,f'OCC:{occupied_zones}',(230,40),1,1)
+#    cvzone.putTextRect(frame,f'FREEZONE:{free_zones}',(30,40),1,1)
+#    cvzone.putTextRect(frame,f'OCC:{occupied_zones}',(230,40),1,1)
 
     # Draw in-progress polygon points
     for pt in polygon_points:
